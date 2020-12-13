@@ -1,0 +1,84 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
+
+body {
+  background-color: #221f47;
+  color:white;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  font-size: 45px;
+  font-family: 'Source Code Pro', bold;
+}
+
+h3 {
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+  padding: 10px;
+  font-size: 30px;
+  font-family: 'Source Code Pro';
+  text-align: center;
+}
+
+.option {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  margin: 10px;
+  border-radius: 10px;
+  border: 2px solid white;
+  opacity: 0.90;
+  filter: grayscale(70%);
+}
+
+.option:hover {
+  object-fit: cover;
+  opacity: 1.0;
+  filter: none;
+  transform: scale(1.1);
+}
+
+.clueImage {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  margin: 10px;
+  border-radius: 10px;
+  border: 2px solid white;
+}
+
+.images, .clue, .text, .center {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+a {
+  text-decoration: none;
+  color: #221f47;
+}
+
+button {
+  background-color: white;
+  border: 5px solid white;
+  border-radius: 25px;
+  font-size: 20px;
+}
+
+h4 {
+  text-align: center;
+}
+
+.text {
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 15%;
+}
+
+.welcome {
+  margin-top: 15%;
+}
